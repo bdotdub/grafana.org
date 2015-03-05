@@ -53,8 +53,8 @@ datasources: {
   },
 },
 ```
-In the above example you see two InfluxDB datasources, one for metrics and a seperate used for dashboard storage. You can use the same InfluxDB
-database for both. But it is probably a good idea to keep them seperate. The InfluxDB databases need to exist, grafana does not create
+In the above example you see two InfluxDB datasources, one for metrics and a separate used for dashboard storage. You can use the same InfluxDB
+database for both. But it is probably a good idea to keep them separate. The InfluxDB databases need to exist, grafana does not create
 them.
 
 ### Graphite & Elasticsearch setup example
